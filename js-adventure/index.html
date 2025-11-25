@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>My First JS Page</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
     </head>
-    <body>
-    <center>
-        <h1>My JavaScript Adventure</h1>
-        <script src="index.js" async defer></script>
-            <img id="myimg" src="pic_bulboff.gif">
-            <br>
-            <button onclick="document.getElementById('myimg').src='pic_bulbon.gif'">
-                turn on the light
-            </button>
-            <button onclick="document.getElementById('myimg').src='pic_bulboff.gif'">
-                turn off the light
-            </button>
-            <br>
-    </center>
-         
-    </body>
+    <script src="index.js" async defer></script>
+    <style>
+    img {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    body { 
+        font-size: 25px;
+        font-family:monospace;
+    }
+    button{ 
+        font-size: 25px;
+        font-family:monospace;
+
+    }
+    </style>
+        <body>
+        <center>
+            <h1>What Can JavaScript Do?</h1>
+            <p>JavaScript can change HTML attribute value.</p>
+            <p>
+                In thsi case JAvaScripte changes the value of the src (source) attribute of an image.
+            </p>
+                <img id="myimg" src="pic_bulboff.gif"style="width: 150px;">
+                <br>
+                <button onclick="document.getElementById('myimg').src='pic_bulbon.gif'">
+                    turn on 
+                </button>
+                <button onclick="document.getElementById('myimg').src='pic_bulboff.gif'">
+                    turn off
+                </button>
+                <br>
+        </center>
+        </body>
 </html>
