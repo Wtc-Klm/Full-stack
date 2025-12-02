@@ -2,4 +2,4 @@ function findPerrimeter(length, width) {
     const perimeter = 2 * (length + width);
     return perimeter;
 }
-const result = findPerrimeter(5, 10);
+console.log(findPerrimeter(5, 10)); // Output: 30
