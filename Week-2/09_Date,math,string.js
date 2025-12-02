@@ -10,3 +10,4 @@ function createLogENtry(massage)
 }
 const log = createLogENtry('User login successfully');
 console.log(log);
+test
