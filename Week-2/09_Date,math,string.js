@@ -9,4 +9,4 @@ function createLogENtry(massage)
     return `[${timestamp}] [${eventId}] ${logMassage}`;
 }
 const log = createLogENtry('User login successfully');
-console.log(log);
+console.log(log);asdasd
