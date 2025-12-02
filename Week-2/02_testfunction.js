@@ -1,4 +1,5 @@
-function findPerrimeter(length, width) {return 2 * (length + width);
+function findPerrimeter(length, width) {
+    const perimeter = 2 * (length + width);
+    return perimeter;
 }
-const perimeter = findPerrimeter(5, 10);{
-}
+const result = findPerrimeter(5, 10);
