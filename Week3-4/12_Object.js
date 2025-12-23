@@ -9,7 +9,7 @@ console.log(obbook);
 console.log(typeof obbook);
 console.log(typeof bookJSON);
 
-const recievebookObj = JSON.stringify(bookJSON);
+const recievebookObj = JSON.parse(bookJSON);
 console.log(recievebookObj);
 console.log(typeof recievebookObj);
 console.log(recievebookObj.title);
